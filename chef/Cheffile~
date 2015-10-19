@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+site "http://community.opscode.com/api/v1"
+
+cookbook 'apt'
+cookbook 'build-essential'
+cookbook 'mongodb-10gen'
+cookbook 'ruby_build'
+cookbook 'nodejs'
+#cookbook 'git'
+cookbook 'rbenv', :github => 'chef-rbenv/ruby_rbenv'
+cookbook 'vim'
